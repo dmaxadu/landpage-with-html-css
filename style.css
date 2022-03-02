@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Rubik:wght@400;500;600;700&display=swap');
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* style da página */
+body {
+    font-size: 100%;
+    background: linear-gradient(236.96deg, #EDEAEA 30.65%, rgba(225, 223, 223, 0.919271) 83.02%, rgba(196, 187, 187, 0.5) 100%);
+}
+
+.bg{
+    opacity: 0.3;
+    position: absolute;
+    padding-left: 150px;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+}
+
+.cabecalho-logo {
+    height: 3rem;
+    transition: 1s all;
+}
+
+.cabecalho-logo:hover {
+    height: 3rem;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 5rem;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    transition: 0.8s all ease;
+}
+.cabecalho-menu-item:hover{
+    color: #3F8787;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cabecalho-redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cabecalho-redes-sociais-item:hover {
+    cursor: pointer;
+}
+
+.nav-decoration-insta {
+    border-bottom: 1px solid rgba(63, 135, 135, 0);
+    transition: 0.8s all ease;
+}
+
+.nav-decoration-insta:hover {
+    border-bottom: 1px solid rgba(63, 135, 135, 1);
+    transform: scale(1.05);
+}
+
+.nav-decoration-git {
+    border-bottom: 1px solid rgba(63, 135, 135, 0);
+    transition: 0.8s all ease;
+}
+
+.nav-decoration-git:hover {
+    border-bottom: 1px solid rgba(63, 135, 135, 1);
+    transform: scale(1.05);
+}
+
+.nav-decoration-twitter {
+    border-bottom: 1px solid rgba(63, 135, 135, 0);
+    transition: 0.8s all ease;
+}
+
+.nav-decoration-twitter:hover {
+    border-bottom: 1px solid rgba(63, 135, 135, 1);
+    transform: scale(1.05);
+}
+
+/* css do conteudo principal */
+
+.conteudo {
+    border-top: 0.4px solid whitesmoke;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.conteudo-principal-escrito {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#conteudo-principal-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #3F8787;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#conteudo-principal-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    width: 55%;
+}
+
+#conteudo-principal-button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    background-color: #0A4B4B;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all ease;
+}
+#conteudo-principal-button:hover {
+    cursor: pointer;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+    background-color: #3F8787;
+}
+#conteudo-principal-eu {
+    transition: 1s all ease;
+}
+
+#conteudo-principal-eu:hover {
+    transform: scale(1.03);
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-secundario-skills {
+    width: 300px;
+    transition: 1s all ease-in-out;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.conteudo-secundario-skills:hover {
+    transform: scale(1.03);
+}
+
+.conteudo-secundario-skills:hover ~ #conteudo-secundario-skills-title{
+    color: rgba(63, 135, 135, 1);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+#conteudo-secundario-skills-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: rgba(63, 135, 135, 0);
+    transition: 1s all ease;
+}
+
+
+
+/* css do sobre mim */
+
+.conteudo-secundario-rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    padding: 8px 25px 8px 25px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: 1s all ease;
+    margin: 25px;
+}
+
+.conteudo-secundario-rectangle:hover {
+    box-shadow: 0 0 20px rgba(10, 75, 75, 0.25);
+}
+
+.conteudo-secundario-rectangle-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: auto;
+    padding: 18px 0 18px 0;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: 1s all ease;
+    margin-bottom: 25px;
+}
+
+.conteudo-secundario-rectangle-1:hover {
+    box-shadow: 0 0 20px rgba(10, 75, 75, 0.25);
+}
+.conteudo-secundario-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    color: #3F8787;
+}
+
+#conteudo-secundario-escrito {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    width: 950px;
+}
+
+/* css do portfolio */
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.portfolio-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    background: #d4d4d4;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.8s all ease;
+}
+
+.portfolio-item:hover{
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.portfolio-item-img{
+    width: 240px;
+    height: 135px;
+    border-radius: 10px;
+}
+.portfolio-item-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #0A4B4B;
+}
+
+.portfolio-item-texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    width: 200px;
+}
+
+.portfolio-item-button {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background-color: #0A4B4B;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.portfolio-item-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #3F8787;
+}
+
+/* css do formulário */
+
+.box {
+    color: black;
+    background-color: #d4d4d4;
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    transition: .5s all ease;
+    margin-top: 20px;
+}
+
+.box:hover {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputUser {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.inputUser:focus ~ .labelInput {
+    color: rgba(63, 135, 135, 1);
+    transform: scale(1.05);
+}
+
+.labelInput {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+
+
+.conteudo-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.contato-redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform: scale(1.8);
+    transition: .5s all ease;
+}
+
+.contato-redes:hover {
+    transform: scale(1.5);
+    color: #0A4B4B;
+}
+
+.redes-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#submit {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background-color: #0A4B4B;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    transition: 1s all ease;
+}
+
+#submit:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #3F8787;
+}
+
+/* css do footer */
+
+.rodape {
+    
+    border-top: 0.4px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-imagem {
+    align-items: center;
+    transition: 1s all ease;
+}
+
+.rodape-imagem:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
