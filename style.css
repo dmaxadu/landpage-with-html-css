@@ -57,7 +57,7 @@ header, main {
 
 .cabecalho-menu {
     display: flex;
-    gap: 10%;
+    gap: 15px;
 }
 
 .cabecalho-menu-item {
@@ -464,7 +464,7 @@ header, main {
         flex-direction: column;
         justify-content: space-around;
         height: 100%;
-        gap: 5%;
+        gap: 15px;
         padding-top: 2%;
     }
 
