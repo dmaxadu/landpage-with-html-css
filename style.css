@@ -214,7 +214,6 @@ header, main {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    /*padding: 10px;*/
     background-color: whitesmoke;
     border-radius: 20px;
     transition: 1s all ease;
@@ -256,7 +255,7 @@ header, main {
     font-weight: 400;
     font-size: 18px;
     text-align: justify;
-    width: 95%;
+    width: 98%;
     padding: 10px;
 }
 
@@ -506,7 +505,7 @@ header, main {
         font-weight: 400;
         font-size: 22px;
         color: black;
-        text-align: left;
+        text-align: center;
         width: 100%;
     }
 
@@ -515,10 +514,24 @@ header, main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         gap: 32px;
     }
 
     .redes-title{
         text-align: center;
+    }
+
+    .conteudo-secundario-rectangle-1 {
+        min-width: 100%;
+    }
+
+    #conteudo-secundario-escrito {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        width: 98%;
+        padding: 10px;
     }
 }
