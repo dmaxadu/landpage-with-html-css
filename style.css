@@ -17,7 +17,7 @@
 }
 
 .espaco {
-    padding: 0 10%;
+    padding: 0 18%;
     width: 100%;
 }
 
@@ -26,7 +26,7 @@ body {
     background: linear-gradient(236.96deg, #EDEAEA 30.65%, rgba(225, 223, 223, 0.919271) 83.02%, rgba(196, 187, 187, 0.5) 100%);
 }
 header, main {
-    padding: 0 10%;
+    padding: 0 16%;
 }
 
 .bg{
@@ -287,7 +287,7 @@ header, main {
 .portfolio-item-img{
     width: 240px;
     height: 135px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .portfolio-item-title {
     font-family: 'Rubik', sans-serif;
@@ -313,7 +313,7 @@ header, main {
     width: 90px;
     height: 30px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: 1s all ease;
 }
 
@@ -333,14 +333,14 @@ header, main {
     color: black;
     background-color: #d4d4d4;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 70%;
     transition: .5s all ease;
     margin-top: 20px;
 }
 
 .box:hover {
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.25);
 }
 .inputBox {
     display: flex;
@@ -415,7 +415,7 @@ header, main {
     width: 70px;
     height: 30px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     transition: 1s all ease;
 }
 
@@ -464,7 +464,7 @@ header, main {
         justify-content: space-around;
         height: 100%;
         gap: 15px;
-        padding-top: 2%;
+        padding: 3%;
     }
 
     .portfolio-item{
@@ -533,5 +533,9 @@ header, main {
         text-align: center;
         width: 98%;
         padding: 10px;
+    }
+
+    .espaço, header, main {
+        padding: 0 6%;
     }
 }
