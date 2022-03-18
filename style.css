@@ -265,7 +265,7 @@ header, main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 5%;
+    gap: 20px;
     padding-top: 2%;
 }
 
@@ -273,11 +273,11 @@ header, main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2%;
+    gap: 5px;
     align-items: center;
     background: #d4d4d4;
     border-radius: 20px;
-    padding: 2%;
+    padding: 15px;
     transition: 0.8s all ease;
 }
 
